@@ -1,5 +1,8 @@
 import java.util.*;
 public class Main {
+  public filaPrimera() {
+    for
+  }
 
   public void run() {
     Scanner in = new Scanner(System.in);
