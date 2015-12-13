@@ -9,6 +9,10 @@ public class Main {
             for(int mas = 1; mas < i; mas++) {
                 System.out.print("+");
             }
+            System.out.print("-");
+            for(int menos = 1; mmenos < i; menos++) {
+                System.out.print("-");
+            }
             System.out.println();
         }
     }
