@@ -1,11 +1,21 @@
 import java.util.*;
 public class Main {
-  public filaPrimera() {
-    for
-  }
+  public void cuadradoUno(int n) {
+        for(int i = 1; i <= n; i++){
+            for(int asterisco = 1; asterisco <= n - i; asterisco++) {   
+                System.out.print("*");
+            }
+            System.out.print("#");
+            for(int mas = 1; mas < i; mas++) {
+                System.out.print("+");
+            }
+            System.out.println();
+        }
+    }
 
   public void run() {
     Scanner in = new Scanner(System.in);
+    cuadradoUno(numero);
     
   }
   
