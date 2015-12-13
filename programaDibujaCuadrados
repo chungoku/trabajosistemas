@@ -1,15 +1,25 @@
 import java.util.*;
 public class Main {
   public void cuadradoUno(int n) {
+    public void  imprimirCuadrado( int n ) {
+        for(int i = n; i >= 0; i--){
+            for(int asterisco = 1; asterisco <= n - i; asterisco++) {   
+                System.out.print("*");
+            }
+            System.out.print("#");
+        
+            System.out.println();
+            
+        }
+    }
         for(int i = 1; i <= n; i++){
             for(int asterisco = 1; asterisco <= n - i; asterisco++) {   
                 System.out.print("*");
             }
             System.out.print("#");
-            for(int mas = 1; mas < i; mas++) {
-                System.out.print("+");
-            }
+        
             System.out.println();
+            
         }
     }
 
