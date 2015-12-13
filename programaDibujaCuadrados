@@ -14,7 +14,10 @@ public class Main {
     }
 
   public void run() {
+    int numero;
     Scanner in = new Scanner(System.in);
+    System.out.print("Dame un número: ");
+    numero = Integer.parseInt(in.nextLine());
     cuadradoUno(numero);
     
   }
