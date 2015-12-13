@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main {
-  public void cuadradoUno(int n) {
+  public void cuadradoUno(int numero) {
         for(int i = 1; i <= n; i++){
             for(int asterisco = 1; asterisco <= n - i; asterisco++) {   
                 System.out.print("*");
